@@ -1,0 +1,433 @@
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.btn{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* header section styles */
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+nav .nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-links ul li{
+    margin-left: 30px;
+}
+
+nav .nav-links ul li a{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.intro-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+
+.intro-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 30px 0;
+}
+
+.intro-img img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* feature section styles */
+.feature-content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.feature-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.feature-description{
+    margin-left: 5em;
+}
+
+span.gray{
+    color: #727272;
+}
+span.black{
+    color: #131313;
+}
+span.orange{
+    color: #FF900E;
+}
+
+.des-title{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.des-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* about section styles */
+.about-content{
+    display: flex;
+    margin: 150px auto;
+}
+
+.about-details{
+    width: 40%;
+    padding-top: 80px;
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.about-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: #727272;
+}
+
+.services .service{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.service-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.service-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.about-img{
+    width: 60%;
+    position: relative;
+    background-image: url(../images/architect.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 85%;
+}
+
+.about-img .experience{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 40%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience h3{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.experience p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* some facts section styles */
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.some-facts-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 100px;
+    width: 40%;
+}
+
+.facts{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.facts .fact{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px;
+    transition: all 0.5s ease;
+}
+.fact img{
+    margin-bottom: 10px;
+}
+.fact h3{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    padding-bottom: 5px;
+}
+
+.fact p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+.fact:hover{
+    transform: scale(1.2);
+    background-color: #ff880085;
+}
+
+/* companies section styles */
+
+.companies{
+    margin: 180px 0;
+}
+
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sponsor-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.company-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.company-logos img{
+    filter: grayscale(1);
+}
+
+/* footer section styles */
+
+footer{
+    margin-bottom: 200px;
+}
+
+.footer-content{
+    background-color: rgba(255, 244, 231, 1);
+    padding: 40px 0;
+}
+
+.copyright-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    text-align: center;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 688px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    nav .nav-links ul li{
+        margin-top: 30px;
+    }
+    .intro{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .intro-title{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+        color: #131313;
+    }
+
+    .feature-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-boxes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .feature-description{
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-details{
+        width: 100%;
+    }
+    .about-img{
+        position: static;
+        width: 100%;
+        background-image: url(../images/architect.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .about-img .experience{
+        display: none;
+    }
+
+    .some-facts-title{
+        text-align: center;
+    }
+
+    
+    .some-facts-des{
+        width: 100%;
+        text-align: center;
+    }
+
+    .facts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fact{
+        margin-bottom: 30px;
+    }
+
+    .companies{
+        margin-top: 100px;
+    }
+
+    .sponsor-des{
+        width: 100%;
+    }
+
+    .company-logos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .company-logo{
+        margin-bottom: 100px;
+    }
+}
